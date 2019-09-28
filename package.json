@@ -1,0 +1,15 @@
+{
+  "name": "gscript_host",
+  "version": "1.0.0",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "author": "Ehawk LLC",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "gscript2020": "git+https://github.com/Ehawk82/gScript2020.git"
+  },
+  "description": ""
+}
