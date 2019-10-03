@@ -1,3 +1,26 @@
+/*DOM*/
 body {
 	background-color: slategrey;
+}
+/*CLASS*/
+.page {
+	top:101vh;
+	left:0;
+}
+.page_full {
+	top:0;
+	left:0;
+}
+/*ID*/
+
+/*MULTI*/
+.page,.page_full,.page_fade {
+	position: fixed;
+	height: -webkit-fill-available;
+	width: -webkit-fill-available;
+	opacity: 1;
+	background-color: grey;
+}
+.page,.page_full,.page_fade {
+	transition: 666ms all;
 }

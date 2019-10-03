@@ -2,7 +2,21 @@ var myUI;
 
 myUI = {
 	init: function() {
-		console.log("working js!");
+		var page = createEle("div"),
+			fsbtn = createEle("button");
+
+		fsbtn.innerHTML = "🔲";
+		fsbtn.onclick = openFullscreen();
+
+		page.className = "page";
+		page.append(fsbtn);
+		//console.log("working js!");
+
+		body.append(page);
+
+		setTimeout(function(){
+			makeFull(page);
+		},0);
 	}
 };
 
